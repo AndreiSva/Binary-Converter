@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<link rel="stylesheet" href="style.css">
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Binairy Converter</title>
+
+<head>
+
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+        <span class="mdl-layout-title"> <h3>Binairy Converter</h3></span>
+        <div class="mdl-layout-spacer"></div>
+
+      <nav class="mdl-navigation mdl-layout--large-screen-only">
+        <a class="mdl-navigation__link" href="">Settings</a>
+      </nav>
+  </div>
+  </header>
+
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">Binairy Converter</span>
+    <nav class="mdl-navigation">
+      <a class="mdl-navigation__link">Settings</a>
+    </nav>
+  </div>
+
+</head>
+
+<body>
+
+<main class="mdl-layout__content">
+  <div class="page-content">
+
+    <div class="mdl-grid">
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+
+    </div>
+
+
+    <div class="mdl-grid">
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+
+    </div>
+
+
+    <div class="mdl-grid">
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col">
+        <label class="mdl-radio mdl-js-radio mdl-js-rippled-effect" for="convert-to1">
+        <input type="radio" id="convert-to1" class="mdl-radio__button" name="options" value="1" checked>
+        <span class="mdl-radio__label">To</span>
+      </div>
+      <div class="mdl-cell mdl-cell--1-col">
+        <label class="mdl-radio mdl-js-radio mdl-js-rippled-effect" for="convert-to2">
+        <input type="radio" id="convert-to2" class="mdl-radio__button" name="options" value="2">
+        <span class="mdl-radio__label">From</span>
+      </div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+
+    </div>
+
+
+    <div class="mdl-grid">
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"><h4>Enter input<h4></div>
+      <div class="mdl-cell mdl-cell--2-col">
+        <form action="#">
+            <div class="mdl-textfield mdl-js-textfield">
+                <input class="mdl-textfield__input" type="text" id="Input">
+                <label class="mdl-textfield__label" for="sample1">Enter text or binairy</label>
+              </div>
+        </form>
+      </div>
+      <div class="mdl-cell mdl-cell--1-col">
+        <button id="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" onCLick="">
+          Compute
+        </button>
+      </div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+
+    </div>
+
+
+    <div class="mdl-grid">
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"><h4>Here is your output</h4></div>
+      <div class="mdl-cell mdl-cell--2-col">
+        <form action="#">
+          <div class="mdl-textfield mdl-js-textfield">
+            <textarea class="mdl-textfield__input" type="text" rows= "3" id="Output" ></textarea>
+            <label class="mdl-textfield__label" for="sample5">Output</label>
+          </div>
+        </form>
+      </div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+
+    </div>
+
+
+    <div class="mdl-grid">
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col">
+        <style>
+.demo-card-wide.mdl-card {
+  width: 512px;
+}
+.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 176px;
+  background: url('CityScape.jpg') center / cover;
+}
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+</style>
+
+<div class="demo-card-wide mdl-card mdl-shadow--2dp">
+  <div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">Welcome</h2>
+  </div>
+  <div class="mdl-card__supporting-text">
+    Programmed by Andrei Sova using web technologies
+  </div>
+  <div class="mdl-card__actions mdl-card--border">
+    <button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" onclick="Redirect()">
+      My website
+    </button>
+  </div>
+</div>
+      </div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+
+    </div>
+
+
+    <div class="mdl-grid">
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+
+    </div>
+
+
+    <div class="mdl-grid">
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+
+    </div>
+
+
+    <div class="mdl-grid">
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+
+    </div>
+
+  </div>
+</main>
+
+</body>
+
+<script>
+
+  const option1 = document.getElementById("convert-to1");
+  const option2 = document.getElementById("convert-to2");
+
+  const button = document.getElementById("submit");
+  button.addEventListener('click', Submit);
+
+  let output = document.getElementById("Output");
+
+  function ConvertToBin(string){
+
+    var StringArray = Array.from(string);
+    console.log(string[0]);
+    for (var i = 0; i < string.length; i++) {
+      console.log(i);
+      StringArray[i] = string[i].charCodeAt(0).toString(2) + " ";
+    }
+    console.log(StringArray.join(""));
+    output.value = StringArray.join("").trim();
+  }
+
+  function ConvertFromBin(Bin) {
+
+    var Binary = Bin.split(" ");
+
+    console.log(Binary[0])
+    for (var i = 0; i < Binary.length; i++) {
+      console.log(i)
+      console.log(Binary[i])
+      console.log(String.fromCharCode(parseInt(Binary[i], 2)));
+      Binary[i] = String.fromCharCode(parseInt(Binary[i], 2));
+    }
+    console.log(Binary.join(""));
+    output.value = Binary.join("");
+  }
+
+  function Submit(){
+    let input = document.getElementById("Input").value;
+    console.log('Recieved input "' + input + '"' + " of type " + typeof(input));
+    if (option1.checked && input != "") {
+      console.log("Converting to bin...");
+      ConvertToBin(input)
+      console.log("Conversion successfull!");
+
+    } else if (input != "") {
+      console.log("Converting to string...");
+      ConvertFromBin(input)
+      console.log("Conversion successfull!");
+    }
+
+  }
+
+  function Redirect() {
+    window.location.href = 'https://andreiprogrammer.surge.sh';
+  }
+
+
+
+</script>
